@@ -1,1 +1,1 @@
-web: gunicorn hello:app --log-file -
+web: gunicorn  --pythonpath mysite mysite.wsgi
